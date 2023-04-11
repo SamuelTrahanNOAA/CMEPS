@@ -359,7 +359,7 @@ module MED_typedefs
     allocate(interstitial%wet(im))
     interstitial%wet = .false.
     allocate(interstitial%use_lake_model(im))
-    interstitial%use_lake_model = .false.
+    interstitial%use_lake_model = 0
     allocate(interstitial%lake_t2m(im))
     interstitial%lake_t2m=-9999
     allocate(interstitial%lake_q2m(im))
